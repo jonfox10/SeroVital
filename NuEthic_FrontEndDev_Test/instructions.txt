@@ -1,0 +1,9 @@
+Hello Jon,
+
+It was good to talk with you today. I would like you to do a HTML, CSS front end test for me. Take this image below and replicate it on you local computer. 
+
+Please send me the file of your HMTL and CSS when you are done. Let me know how long it took you to do this front end development test.
+
+Make this a desktop website. You can make this mobile responsive or explain in detail of how you would do it.
+
+I look forward to hearing back from you.

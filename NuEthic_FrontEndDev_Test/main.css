@@ -1,0 +1,440 @@
+
+/* CSS for HEADER section of the page */
+.top_menu_container {
+    position: relative;
+    /* height: 45px; */
+    height: 7vh;
+    width: 100vw;
+    Margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.header_logo {
+    position: relative;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_logo img {
+    width: 88%;
+    height: auto;
+    margin-left: 20px;
+}
+.nav_bar {
+    position: relative;
+    width: 45%;
+    margin-right: 20px;
+}
+.link_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav_link {
+    min-width: 5vw;
+    height: 100%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+    font-size: 2.25vmin;
+    font-weight: 300;
+    letter-spacing: 2px;
+    background-color: #dbdcde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 2px;
+
+}
+
+#order_now {
+    background-color: #df401a;
+    color: white; 
+    font-weight: 500; 
+}
+
+.nav_link:hover {
+    cursor: pointer;
+    background-color: #df401a;
+    color: white; 
+    font-weight: 500;
+}
+
+/* CSS for top part of the main Section */
+.main_body{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    Margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_top {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    Margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.model_pic {
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+.clinical_valid{
+    position: absolute;
+    left: 20%;
+    height: 90%;
+    width: auto;
+}
+
+.left-middle {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.title-logo {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.checklist li {
+    background: url('./images/checkmark.png') left 2px no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vmin;
+    font-weight: 200;
+    color: #6f7170;
+    padding: 2.5px 0;
+    padding-left: 20px;
+}
+.left-middle h2 {
+    font-size: 2.8vmin;
+    color: #fc5d07cb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-left: 5px;
+
+}
+.middle_left_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: -10px; */
+}
+
+.middle_left_bottom button {
+    background-color: #df401a;
+    color: white; 
+    font-weight: 500; 
+    font-size: 3vmin;
+    padding: 5px;
+    border: none;
+}
+button:active {
+    outline: none;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.money_back_garauntee {
+    height: 8vmin;
+    width: auto;
+    filter: drop-shadow(2px 2px 2px #6f7170);
+}
+
+.right {
+    position: relative;
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.bottle_img {
+    height: 80%;
+    width: auto;
+}
+.box_img {
+    height: 85%;
+    width: auto;
+    filter: drop-shadow(0px 10px 03px #df401a20);
+}
+
+/* CSS for bottom section of the main Section */
+.main_bottom {
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    Margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.coupon {
+    border: 1px solid #df401a;
+    width: 35%;
+    height: 95%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    margin: 0 2.5vmin;
+
+}
+
+.coupon_header {
+    min-height: 5vmin;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmin;
+    color: white;
+    background-color: #900009; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.coupon_body {
+    position: relative;
+    width: 95%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+
+.coupon_images {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    /* border: 1px solid red; */
+}
+.coupon_image {
+    height: 100%;
+    width: auto;
+}
+
+.coupon_content {
+    font-family: sans-serif;
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.coupon_content h1 {
+    font-size: 6vmin;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.coupon_content h4 {
+    font-size: 2vmin;
+    font-weight: 550;
+    letter-spacing: 1px;
+    text-align: right;
+    line-height: 2;
+}
+#red-text {
+    color: #900009;
+    
+}
+
+.coupon_footer {
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+.coupon_footer p {
+    font-family: sans-serif;
+    font-size: 1vmin;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 1.25;
+}
+.coupon_right_footer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.coupon_right_footer h2 {
+    font-size: 3vmin;
+    color: #fc5d07cb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#footer_checklist {
+    font-size: 1.5vmin;
+}
+
+
+sup { 
+    vertical-align: super;
+    font-size: 3vmin;
+}
+
+.coupon_cal_button_container {
+    display: flex;
+    justify-content: space-between;
+}
+.cal_icon {
+    /* height: 20%; */
+    /* width: auto; */
+    margin-right: 20px;
+}
+
+.coupon_button {
+    background-color: #df401a;
+    color: white; 
+    font-weight: 500; 
+    font-size: 3.75vmin;
+    border: none;
+    height: 5vmin;
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        min-height: 100vh;
+        width: 100vw;
+        overflow: scroll;
+
+    }
+
+    .main_body {
+        position: relative;
+        min-height: 100vh;
+        /* width: 100vw; */
+        Margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main_top {
+        position: relative;
+        min-height: 100vh;
+        /* width: 100vw; */
+        Margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
+    }
+    .left {
+        width: 100vw;
+        min-height: 80vh;
+    }
+    .model_pic {
+        /* position: absolute; */
+        height: 60vh;
+        width: auto;
+    }
+    .clinical_valid{
+        position: absolute;
+        right: 5vmin;
+        height: 90vmin;
+        width: auto;
+    }
+
+    .left-middle {
+        width: 100vmin;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .title-logo {
+        /* margin-top: 5px; */
+        width: 80vw;
+        /* display: flex;
+        justify-content: center; */
+    }
+    .title-logo img {
+        /* width: 100%; */
+        /* height: 100%; */
+    }
+
+
+
+    .main_bottom {
+        position: relative;
+        min-height: 100vh;
+        width: 100vw;
+        Margin: 5vmin auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .coupon {
+        border: 1px solid #df401a;
+        width: 80vw;
+        /* height: 50vh; */
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: white;
+        margin: 0 2.5vmin;
+    
+    }
+
+
+}
